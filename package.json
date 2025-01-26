@@ -1,0 +1,24 @@
+{
+  "name": "netflixgpt",
+  "version": "1.0.0",
+  "description": "Netflix GPT REACT app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel src/basics/index.html"
+  },
+  "author": "Vedansh Bhardwaj",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "postcss": "^8.5.1",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "netflixgpt": "file:",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.3"
+  }
+}
