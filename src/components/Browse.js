@@ -1,9 +1,11 @@
 import {BG_IMG} from "../constants/Constant";
+import Header from "./Header";
 
 const Browse = () => {
     return (
         <div>
-            <img className="max-h-full max-w-full" src={BG_IMG} />
+            <Header/>
+            {/* <img src={BG_IMG} alt="bg_img" className="bg-gradient-to-r from-black"/> */}
         </div>
     )
 }
